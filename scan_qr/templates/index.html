@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}">
+    <title>Video Capturing</title>
+</head>
+<body>
+    <div class="logo">
+        <imgs src="{{url_for('static',filename = 'images/asset.png')}}" alt="logo"></imgs>
+    </div>
+    <h3>your logo</h3>
+
+    <p id="response"></p>
+    <div class="scan">
+        <div class="video"> 
+            <h3> </h3>
+        </div>
+        <div class="border">
+        <video id="video" width="400px" autoplay></video>
+
+        </div>
+        <canvas id="canvas" class="canvasC" width="400px" height="600"></canvas>
+        <div class="btn">
+            <button class="button-64" role="button"><span class="text">Capture</span></button>
+        </div>
+    </div>
+    <script src="{{url_for('static',filename = 'js/script.js')}}"></script>
+</body>
+</html>

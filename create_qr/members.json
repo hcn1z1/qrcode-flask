@@ -1,0 +1,14 @@
+{
+    "members":[
+        {
+            "name" : "mohamed",
+            "lastname" : "amine",
+            "email" : "mohamedevander@gmail.com"
+        },
+        {
+            "name" : "some ugly",
+            "lastname" : "feminist",
+            "email" : "someuglyassemail@gmail.com"
+        }
+    ]
+}
